@@ -79,7 +79,6 @@
 
 //Some
 //Verifica se pelo menos um item atende a condição / retorna true ou false
-let numero = [1, 3, 5, 8];
 
 // let temPar = numero.some(num => num % 2 == 0);
 // console.log(temPar);
@@ -105,7 +104,7 @@ let numero = [1, 3, 5, 8];
 //Unshift - adiciona elementos no começo do array
 
 //Slice copia uma parte da lista
-//let parte = numero.slice(1,3); // são as posições (1,3) (ele copia entre essas posições por exemplo: nesse caso ele vai copiar 3 e 5)
+//let parte = numero.slice(1,3); // são as posições (1,3) (ele copia entre essas posições por exemplo: nesse caso ele vai copiar 3 e 5)let numero = [1, 3, 5, 8];
 
 //SPLICE
 
@@ -129,11 +128,11 @@ let numero = [1, 3, 5, 8];
 
 // O que veremos nas proximas aulas
 
-const texto = document.getElementById("texto")
+// const texto = document.getElementById("texto")
 
-let comprimento = prompt("Digite seu comprimento");
-comprimento = comprimento.toLowerCase();
-comprimento == "bom dia"? texto.textContent = comprimento : texto.textContent = "Segundou";
+// let comprimento = prompt("Digite seu comprimento");
+// comprimento = comprimento.toLowerCase();
+// comprimento == "bom dia"? texto.textContent = comprimento : texto.textContent = "Segundou";
 
     
 
